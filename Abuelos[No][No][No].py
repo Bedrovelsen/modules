@@ -19,18 +19,12 @@ cookie = False #Does the config require Cookie Session? Trye/False
 token = False #Does the config require token? True/False
 #Setting token to True will require a token_scrapper() and token_request() def
 captcha = False #Does the congif require captcha support? True/False
-captcha_key = None #Your captcha API key
 #Setting captcha_key to None will prompt the user to enter theirs
 site_key = "" #The website captcha key (see docs for help)
 error = ['{cardBalance:"0.00"}']
-success = None #same format as error, None means it'll accept anything that isn't an error
-
-
-
 retries = 0 #Max retries limit
 timeout = 8 #Max timeout limit in seconds
 headers = None #Custom headers, None will use default
-connections = 1000 #Number of connections
 
 #===========================================================
 
